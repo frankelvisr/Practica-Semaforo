@@ -37,7 +37,7 @@ void setup()
   digitalWrite(2, LOW);
   delay(1000); // Wait for 1000 millisecond(s)
 }
-
+void loop()
 {
   digitalWrite(13, HIGH);
   digitalWrite(12, LOW);
